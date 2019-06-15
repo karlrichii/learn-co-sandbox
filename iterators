@@ -1,0 +1,9 @@
+
+
+values = [10, 11, 12, 13, 14, 15]
+count = values.length
+sum = 0
+count.times do |num|
+  sum = sum + values[num]
+end
+puts sum
